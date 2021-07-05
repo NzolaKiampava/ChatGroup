@@ -1,0 +1,46 @@
+body{
+	background-color: #3368FF;
+}
+#ChatBig{
+	width: 500px;
+	height: 450px;
+	border: 1px solid #000;
+	margin: auto;
+}
+#ChatMessages{
+	width: 500px;
+	height: 400px;
+	font-size: 19px;
+	font-weight: normal;
+	background-color: #228822;
+	overflow: auto;
+}
+#ChatMessages::-webkit-scrollbar-track{
+	-webkit-box-shadow:inset 0 0 0px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+#ChatMessages::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow:inset 0 0 0px rgba(0,0,0,0.5);
+}
+#ChatMessages::-webkit-scrollbar{
+	width: 12px;
+}
+#ChatText{
+	color: red;
+	width: 495px;
+	height: 49px;
+	font-size: 14px;
+	border-bottom: 2px solid #333;
+	border: 1px solid black;
+}
+#ChatText:focus{
+	outline: none;
+}
+.UserNameS{
+	color: orange;
+}
+.UserNameS:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
